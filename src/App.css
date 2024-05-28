@@ -1,0 +1,113 @@
+#root {
+  /* max-width: 1280px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  width: 100%;
+  height: 50px;
+  background-color: darkred;
+  padding: 12px 24px;
+}
+
+.logo-text {
+  color: azure;
+  font-size: 24px;
+  margin: 0;
+}
+
+.select {
+  padding: 12px 24px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 16px;
+  width: 500px;
+  border-color: #999;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  border: 2px solid darkred;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #250c0c;
+}
+.universities-list {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.add-student-form {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  max-width: 550px;
+  gap: 12px;
+  border: 1px solid #250c0c;
+  background-color: #d2d2d2;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 1) 0px 7px 29px 0px;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: space-between;
+}
+
+.field input {
+  background-color: transparent;
+  border: 1px solid #250c0c;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.window {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(154 154 154 / 32%);
+  backdrop-filter: blur(3px);
+}
+
+.add-student {
+  display: block;
+  width: fit-content;
+  color: black;
+  
+  border-radius: 7px;
+  margin: 12px auto;
+  padding: 8px;
+  background-color: #f9f9f9;
+}
+
+.add-student:hover {
+  color: white;
+  border: 1px solid #250c0c;
+  background-color: rgb(6, 189, 6);
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
